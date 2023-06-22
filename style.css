@@ -74,9 +74,8 @@ header {
 }
 
 .button-contact:hover {
-  background-color: white;
-  color: #181619;
-  transition: 300ms all;
+  background-color: #ee1418e7;
+  transition: 200ms all;
 }
 
 /********* HEADER *********/
