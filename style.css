@@ -32,7 +32,7 @@ header {
 }
 
 .logo img {
-  width: 70px;
+  width: 60px;
 }
 
 .navbar {
@@ -43,6 +43,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   list-style: none;
   gap: 2rem;
 }
