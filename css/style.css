@@ -264,17 +264,17 @@ footer {
   color: #ffffff;
 }
 
-.social-links .whatsapp:hover {
+.social-links .fa-whatsapp:hover {
   color: rgb(23, 184, 23);
   transition: 300ms all;
 }
 
-.social-links .instagram:hover {
+.social-links .fa-instagram:hover {
   color: rgb(228, 92, 92);
   transition: 300ms all;
 }
 
-.social-links .facebook:hover {
+.social-links .fa-facebook:hover {
   color: rgb(111, 111, 226);
   transition: 300ms all;
 }
