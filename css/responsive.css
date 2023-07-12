@@ -1,0 +1,40 @@
+@media (max-width: 1100px) {
+}
+
+@media (max-width: 576px) {
+  .nav .navbar-list {
+    gap: 1rem;
+  }
+
+  .nav .navbar-list {
+    position: absolute;
+    top: 70px;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    border: 2px solid lightblue;
+    border-top: 0;
+    flex-direction: column;
+    background-color: rgb(0, 37, 202);
+    border-radius: 0 0 15px 15px;
+    padding: 45px 30px;
+    display: none;
+  }
+
+  .nav .navbar-list li a {
+    font-size: 20px;
+  }
+
+  .nav .menu-label {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .button-contact {
+    display: none;
+  }
+
+  #menu-toggle:checked + .navbar-list {
+    display: flex;
+  }
+}

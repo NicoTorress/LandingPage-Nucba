@@ -10,14 +10,11 @@
   font-weight: 500;
   text-decoration: none;
   list-style: none;
+  border: 1px solid red;
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  background: #d3d3d3;
 }
 
 /********* HEADER *********/
@@ -31,14 +28,14 @@ header {
   padding: 0 50px;
   position: fixed;
   top: 0;
-  border-bottom: .5px solid gray;
+  border-bottom: 0.5px solid gray;
 }
 
 .logo {
   width: 70px;
 }
 
-.nav ul {
+.nav .navbar-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,18 +43,29 @@ header {
   gap: 2rem;
 }
 
-.nav ul li a {
+.nav .navbar-list li a {
   font-size: 1.2rem;
   color: white;
 }
 
-.nav ul li a:hover {
+.nav .navbar-list li a:hover {
   color: #e5383b;
   transition: 300ms all;
 }
 
+.nav .menu-label {
+  color: #ffffff;
+  font-size: 36px;
+  display: none;
+}
+
+#toggle-menu {
+  display: none;
+}
+
 .button-contact {
   color: white;
+  border: none;
   background-color: #ba181b;
   padding: 8px;
   font-size: 1.2rem;
@@ -78,10 +86,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0B090A;
+  background-color: #0b090a;
 }
 
-.hero-area{
+.hero-area {
   width: 90%;
   height: 750px;
   display: flex;
@@ -94,7 +102,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   gap: 2rem;
 }
 
@@ -102,6 +109,7 @@ header {
   font-size: 3rem;
   font-weight: 900;
   color: #ffffff;
+  text-align: center;
 }
 
 .hero-area .tittle-area p {
@@ -133,40 +141,41 @@ header {
   width: 90%;
   text-align: justify;
   color: #ffffff;
+  padding: 1rem 0 1rem 0;
 }
 
 /********* PROX AREA *********/
 
-#prox-area {
+#product-area {
   width: 100%;
   height: 100vh;
-  background: #0B090A;
+  background: #0b090a;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 5rem;
-
 }
 
-#prox-area h2 {
+#product-area h2 {
   font-size: 2.5rem;
   color: #ffffff;
   padding-bottom: 5rem;
   text-decoration: underline;
 }
 
-#prox-area img {
+#product-area img {
   width: 90%;
   object-fit: cover;
   overflow: hidden;
   padding: 1rem;
 }
 
-#prox-area .content-product {
+#product-area .content-product {
   width: 90%;
   display: flex;
   justify-content: center;
   gap: 4rem;
+  flex-wrap: wrap;
 }
 
 .content-product .product-card {
@@ -199,16 +208,79 @@ header {
   flex-direction: column;
   align-items: center;
   border-radius: 20px;
-} 
+}
 
 .product-card .button-product {
   width: 180px;
   height: 45px;
   margin-bottom: 1.5rem;
   border-radius: 10px;
+  border: none;
   cursor: pointer;
 }
 
 .content-product .product-card:hover {
   box-shadow: 10px solid #ffffff;
+}
+
+/************ FOOTER AREA**************/
+
+footer {
+  width: 100%;
+  height: 12vh;
+  background: #181619;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-footer {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+.social-links ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.social-links .whatsapp:hover {
+  color: rgb(23, 184, 23);
+  transition: 300ms all;
+}
+
+.social-links .instagram:hover {
+  color: rgb(228, 92, 92);
+  transition: 300ms all;
+}
+
+.social-links .facebook:hover {
+  color: rgb(111, 111, 226);
+  transition: 300ms all;
+}
+
+.contact-info {
+  color: #ffffff;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.copy {
+  background: #0e0d0e;
+  height: 3.5vh;
+  width: 100%;
+  color: #ffffff;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

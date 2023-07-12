@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="shortcut icon" href="images/LogoValhala.png" type="image/x-icon">
   <title>Valhala Design</title>
 </head>
@@ -17,7 +19,13 @@
 
     <!-- Menú de navegación  -->
     <nav class="nav">
-      <ul>
+
+      <label for="toggle-menu" class="menu-label">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </label>
+      <input type="checkbox" id="toggle-menu">
+
+      <ul class="navbar-list">
         <li><a href="#principal-area">Inicio</a></li>
         <li><a href="#info-area">Información</a></li>
         <li><a href="#">Servicios</a></li>
@@ -40,7 +48,7 @@
         <p>En nuestro equipo de profesionales apasionados por el diseño web, nos dedicamos a crear experiencias
           digitales impactantes y funcionales. Sabemos que una página web es una ventana al mundo para tu negocio, por
           lo que nos enfocamos en crear sitios web estéticamente atractivos, intuitivos y optimizados para ofrecer una
-          experiencia de usuario excepcional. 
+          experiencia de usuario excepcional.
         </p>
         <button class="button-contact">Contactarme!</button>
       </div>
@@ -54,36 +62,42 @@
         ¿Qué puedes esperar de nuestros servicios de diseño web? Nuestro proceso comienza con escuchar atentamente tus
         necesidades y objetivos. Queremos conocer tu visión y entender la identidad de tu marca para poder plasmarla en
         un diseño web único y personalizado.
-        <br>
-        <br>
+      </p>
+      <br>
+      <p>
         Nuestros diseñadores expertos combinan su creatividad con los últimos estándares de diseño y las mejores
         prácticas en usabilidad para crear sitios web que no solo sean visualmente atractivos, sino también fáciles de
         navegar y compatibles con diferentes dispositivos y plataformas. Nos aseguramos de que tu sitio web se vea y
         funcione de manera óptima tanto en computadoras de escritorio como en dispositivos móviles.
-        <br>
-        <br>
+      </p>
+      <br>
+      <p>
         Además del diseño estético, nos enfocamos en la optimización de tu sitio web para los motores de búsqueda (SEO),
         lo que te ayudará a obtener una mayor visibilidad en Internet y atraer a un público más amplio. Implementamos
         técnicas y estrategias de SEO para mejorar la clasificación de tu sitio en los resultados de búsqueda y aumentar
         el tráfico orgánico.
-        <br>
-        <br>
+      </p>
+      <br>
+      <p>
         Ya sea que necesites un sitio web corporativo, una tienda en línea o una plataforma interactiva, estamos listos
         para hacer realidad tus ideas. Nuestro objetivo es superar tus expectativas y brindarte un diseño web que
         refleje la esencia de tu negocio y te ayude a alcanzar tus metas en línea.
-        <br>
-        <br>
+      </p>
+      <br>
+      <p>
         Explora nuestro portafolio y descubre algunos de los proyectos exitosos en los que hemos trabajado. Si estás
         listo para llevar tu presencia en línea al siguiente nivel, no dudes en contactarnos. Estamos emocionados de
         colaborar contigo y crear un diseño web impresionante que te destaque en el mundo digital.
-        <br>
-        <br>
+      </p>
+      <br>
+      <p>
         ¡Gracias por visitarnos y esperamos tener la oportunidad de trabajar contigo!
+      </p>
       </p>
     </div>
   </section>
 
-  <section id="prox-area">
+  <section id="product-area">
     <h2>Nuestros Servicios</h2>
 
     <div class="content-product">
@@ -93,10 +107,10 @@
         <img src="./images/AreaPrincipal.png" alt="Plan Básico">
         <div class="content-cards">
           <div class="cards-info">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>✅ Lorem ipsum dolor sit amet.</p>
+            <p>✅ Lorem ipsum dolor sit amet.</p>
+            <p>❌ Lorem ipsum dolor sit amet.</p>
+            <p>❌ Lorem ipsum dolor sit amet.</p>
           </div>
           <button class="button-product" type="button">Adquirir Plan</button>
         </div>
@@ -106,10 +120,10 @@
         <img src="./images/AreaPrincipal.png" alt="Plan Estándar">
         <div class="content-cards">
           <div class="cards-info">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>✅ Lorem ipsum dolor sit amet.</p>
+            <p>✅ Lorem ipsum dolor sit amet.</p>
+            <p>✅ Lorem ipsum dolor sit amet.</p>
+            <p>❌Lorem ipsum dolor sit amet.</p>
           </div>
           <button class="button-product" type="button">Adquirir Plan</button>
         </div>
@@ -119,20 +133,44 @@
         <img src="./images/AreaPrincipal.png" alt="Plan Premium">
         <div class="content-cards">
           <div class="cards-info">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>✅ Lorem ipsum dolor sit amet.</p>
+            <p>✅ Lorem ipsum dolor sit amet.</p>
+            <p>✅ Lorem ipsum dolor sit amet.</p>
+            <p>✅ Lorem ipsum dolor sit amet.</p>
           </div>
           <button class="button-product" type="button">Adquirir Plan</button>
         </div>
-        </div>
+      </div>
     </div>
 
   </section>
 
   <footer>
-    
+    <div class="content-footer">
+      <div class="social-links">
+        <ul>
+          <li>
+            <a href="#" class="whatsapp">Whatsapp</a>
+          </li>
+          <hr>
+          <li>
+            <a href="#" class="instagram">Instagram</a>
+          </li>
+          <hr>
+          <li>
+            <a href="#" class="facebook">Facebook</a>
+          </li>
+        </ul>
+      </div>
+      <div class="contact-info">
+        <p>ValhalaDesing@gmail.com</p>
+        <hr>
+        <p>+54123456789</p>
+      </div>
+    </div>
+    <div class="copy">
+      <p>2023 &copy; Valhala Desing. Todos los derechos reservados</p>
+    </div>
   </footer>
 </body>
 
