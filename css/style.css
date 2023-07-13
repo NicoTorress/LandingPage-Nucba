@@ -102,10 +102,12 @@ header {
 
 .hero-area {
   width: 90%;
-  min-height: 750px;
+  min-height: 700px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: rgba(77, 75, 75, 0.178);
+  border-radius: 20px;
 }
 
 .tittle-area {
@@ -135,6 +137,7 @@ header {
 
 .hero-area img {
   width: 40%;
+  object-fit: cover;
 }
 
 /************ INFO AREA  ************/
@@ -170,7 +173,7 @@ header {
 #product-area h2 {
   font-size: 2.5rem;
   color: #ffffff;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 #product-area img {
@@ -187,6 +190,9 @@ header {
   gap: 4rem;
   flex-wrap: wrap;
   padding-bottom: 2rem;
+  padding-top: 2rem;
+  background-color: rgba(77, 75, 75, 0.178);
+  border-radius: 20px;
 }
 
 .product-card {
@@ -226,12 +232,18 @@ header {
   height: 45px;
   margin-bottom: 1.5rem;
   border-radius: 10px;
+  font-size: .9rem;
+  font-weight: 900;
   border: none;
   cursor: pointer;
+  color: white;
+  background-color: #ba181b;
 }
 
-.product-card:hover {
-  box-shadow: 10px solid #ffffff;
+.button-product:hover {
+  background-color: #ee1418e7;
+  transition: 200ms all;
+  font-size: 1rem;
 }
 
 /************ FOOTER AREA**************/
