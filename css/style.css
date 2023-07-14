@@ -194,7 +194,7 @@ header {
 }
 
 #product-area img {
-  width: 100%;
+  width: 80%;
   object-fit: cover;
   overflow: hidden;
   padding: 1rem;
