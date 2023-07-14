@@ -159,6 +159,22 @@ header {
   padding: 1rem 0 1rem 0;
 }
 
+.description-text p:nth-child(1) {
+  padding-bottom: 30px;
+}
+.description-text p:nth-child(2) {
+  padding-bottom: 30px;
+}
+.description-text p:nth-child(3) {
+  padding-bottom: 30px;
+}
+.description-text p:nth-child(4) {
+  padding-bottom: 30px;
+}
+.description-text p:nth-child(5) {
+  padding-bottom: 30px;
+}
+
 /********* PROX AREA *********/
 
 #product-area {
@@ -232,7 +248,7 @@ header {
   height: 45px;
   margin-bottom: 1.5rem;
   border-radius: 10px;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 900;
   border: none;
   cursor: pointer;
@@ -340,7 +356,6 @@ header {
   margin-top: 10px;
 }
 
-
 /************ FOOTER AREA**************/
 
 footer {
@@ -366,7 +381,7 @@ footer {
   gap: 1rem;
 }
 
-.social-links  i {
+.social-links i {
   font-size: 1.8rem;
   color: #ffffff;
 }
